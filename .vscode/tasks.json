@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CNN",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", "main.cpp","-o", "CNN", "F:/LIB/opencv_old/build/include", "F:/LIB/opencv_old/build/x86/mingw/bin", "F:/LIB/opencv_old/build/x86/mingw/lib",
+     "-lopencv_shape", "-lopencv_stitching", "-lopencv_objdetect", "-lopencv_superres", "-lopencv_videostab", "-lopencv_calib3d",
+     "-lopencv_features2d", "-lopencv_highgui", "-lopencv_videoio", "-lopencv_imgcodecs", "-lopencv_video", "-lopencv_photo", 
+     "-lopencv_ml", "-lopencv_imgproc", "-lopencv_flann", "-lopencv_core", 
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

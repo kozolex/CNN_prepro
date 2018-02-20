@@ -1,0 +1,85 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "F:/VisualStudio/VC/Tools/MSVC/14.11.25503/include/*",
+                "F:/VisualStudio/VC/Tools/MSVC/14.11.25503/atlmfc/include/*",
+                "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/um",
+                "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/ucrt",
+                "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/shared",
+                "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/winrt",
+                "F:/LIB/opencv_old/build/include",
+                "F:/LIB/opencv_old/build/x86/mingw/bin",
+                "C:/Program Files/CodeBlocks/MinGW/bin",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "F:/VisualStudio/VC/Tools/MSVC/14.11.25503/include/*",
+                    "F:/VisualStudio/VC/Tools/MSVC/14.11.25503/atlmfc/include/*",
+                    "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/um",
+                    "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/ucrt",
+                    "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/shared",
+                    "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/winrt",
+                    "F:/LIB/opencv_old/build/include",
+                    "F:/LIB/opencv_old/build/x86/mingw/bin",
+                    "C:/Program Files/CodeBlocks/MinGW/bin",
+                    "C:/Program Files/CodeBlocks/MinGW/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 3
+}

@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
     string tabDir[20];
-    string _dir = "F:\\noweFotyZiaren\\NormaOdmiany\\";
+    string _dir = "F:\\noweFotyZiaren\\";
     const char * _dir_cch = _dir.c_str();
     struct dirent * plik;
     DIR * sciezka;
