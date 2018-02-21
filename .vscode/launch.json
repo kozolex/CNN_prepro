@@ -14,9 +14,7 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
-            "linux": {
             "MIMode": "gdb",
-            "includePath": ["F:/LIB/opencv_old/build/include"],
             "miDebuggerPath": "C:/Program Files/CodeBlocks/MinGW/bin",
             "setupCommands": [
                 {

@@ -45,13 +45,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "F:/VisualStudio/VC/Tools/MSVC/14.11.25503/include/*",
-                "F:/VisualStudio/VC/Tools/MSVC/14.11.25503/atlmfc/include/*",
-                "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/um",
-                "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/ucrt",
-                "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/shared",
-                "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/winrt",
                 "F:/LIB/opencv_old/build/include",
+                "C:/Program Files/CodeBlocks/MinGW/include",
                 "F:/LIB/opencv_old/build/x86/mingw/bin",
                 "C:/Program Files/CodeBlocks/MinGW/bin",
                 "${workspaceRoot}"
@@ -64,16 +59,10 @@
             "intelliSenseMode": "msvc-x64",
             "browse": {
                 "path": [
-                    "F:/VisualStudio/VC/Tools/MSVC/14.11.25503/include/*",
-                    "F:/VisualStudio/VC/Tools/MSVC/14.11.25503/atlmfc/include/*",
-                    "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/um",
-                    "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/ucrt",
-                    "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/shared",
-                    "C:/Program Files/Windows Kits/10/Include/10.0.16299.0/winrt",
                     "F:/LIB/opencv_old/build/include",
+                    "C:/Program Files/CodeBlocks/MinGW/include",
                     "F:/LIB/opencv_old/build/x86/mingw/bin",
                     "C:/Program Files/CodeBlocks/MinGW/bin",
-                    "C:/Program Files/CodeBlocks/MinGW/include",
                     "${workspaceRoot}"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
