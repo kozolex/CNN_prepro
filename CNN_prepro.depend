@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1519324609 source:c:\users\dellhome\documents\github\cnn_prepro\main.cpp
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<iostream>
+	<dirent.h>
+	<sys/stat.h>
+	<stdio.h>
+	<fstream>
+
