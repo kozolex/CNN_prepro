@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
     string tabDir[20];
-    string _dir = "F:\\noweFotyZiaren\\";
+    string _dir = "I:/ziarno2/TIFF/uszkodzenia/"; // I:\ziarno2\TIFF\odmiany
     const char * _dir_cch = _dir.c_str();
     struct dirent * plik;
     DIR * sciezka;
@@ -27,7 +27,7 @@ int main()
         closedir( sciezka );
     }
     else
-        cout <<" b³¹d otwarcia strumienia dla danej œcie¿ki, mo¿e nie istnieje, lub podano œcie¿kê pust¹\n";
+        cout <<" blad otwarcia strumienia dla danej sciezki\n";
 
     string _filtr = "*.tif";
 

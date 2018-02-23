@@ -1,29 +1,6 @@
 {
     "configurations": [
         {
-            "name": "Mac",
-            "includePath": [
-                "/usr/include",
-                "/usr/local/include",
-                "${workspaceRoot}"
-            ],
-            "defines": [],
-            "intelliSenseMode": "clang-x64",
-            "browse": {
-                "path": [
-                    "/usr/include",
-                    "/usr/local/include",
-                    "${workspaceRoot}"
-                ],
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
-            },
-            "macFrameworkPath": [
-                "/System/Library/Frameworks",
-                "/Library/Frameworks"
-            ]
-        },
-        {
             "name": "Linux",
             "includePath": [
                 "/usr/include",
@@ -45,10 +22,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "F:/LIB/opencv_old/build/include",
-                "C:/Program Files/CodeBlocks/MinGW/include",
-                "F:/LIB/opencv_old/build/x86/mingw/bin",
-                "C:/Program Files/CodeBlocks/MinGW/bin",
+                "F:/LIB/opencv/build/include/",
+                "F:/LIB/opencv/build/x86/mingw/lib/",
                 "${workspaceRoot}"
             ],
             "defines": [
@@ -59,10 +34,9 @@
             "intelliSenseMode": "msvc-x64",
             "browse": {
                 "path": [
-                    "F:/LIB/opencv_old/build/include",
-                    "C:/Program Files/CodeBlocks/MinGW/include",
-                    "F:/LIB/opencv_old/build/x86/mingw/bin",
-                    "C:/Program Files/CodeBlocks/MinGW/bin",
+                    "F:/LIB/opencv/build/include",
+                    "F:/LIB/opencv/build/x86/mingw/bin",
+                    "C:/Program Files/CodeBlocks/MinGW/lib/gcc/mingw32/4.8.1/include/c++",
                     "${workspaceRoot}"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
