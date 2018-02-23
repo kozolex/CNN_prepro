@@ -49,6 +49,7 @@ int main()
         struct dirent* pozycja=0;
         vector<string> nazwa;
         string plik;
+        cout<<endl<<tabDir[j];
         while (pozycja=readdir(katalog))
         {
 
@@ -58,15 +59,15 @@ int main()
             {
                 imageSrc= imread(dirStr + plik);
                 //cout<<dirStr + plik<<endl;
-                resize(imageSrc, imageRSize, cv::Size(), 0.33, 0.33);
+                resize(imageSrc, imageRSize, cv::Size(), 0.50, 0.50);
                 //dirStr.insert( 10, "/PNG" );
                 //CreateDirectory(dirStr.c_str()),NULL);
-                imwrite(dirStr+plik+".png",imageRSize);
+                imwrite("C:/PNG2/"+tabDir[j]+"/"+plik+".png",imageRSize);
                 //cout<<dirStr + plik+".png"<<endl;
-                if(maxWidth < imageSrc.cols)
-                    maxWidth=imageSrc.cols;
-                if(maxHeight < imageSrc.rows)
-                    maxHeight=imageSrc.rows;
+                if(maxWidth < imageRSize.cols)
+                    maxWidth=imageRSize.cols;
+                if(maxHeight < imageRSize.rows)
+                    maxHeight=imageRSize.rows;
                 //plik.erase(plik.length()-4); //usuwanie .txt
                 //cout<<plik<<endl;
                 //cout<<".";
@@ -74,7 +75,7 @@ int main()
 
         }
         //cout<<dirStr + plik<<"*"<<endl;
-        cout<<endl<<tabDir[j]<<"->"<<"MAX width: "<<maxWidth<<" MAX heigth: "<<maxHeight<<endl;
+        cout<<endl<<tabDir[j]<<","<<maxWidth<<","<<maxHeight<<endl;
         maxWidth=0;
         maxHeight=0;
         closedir(katalog);
